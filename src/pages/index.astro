@@ -10,6 +10,8 @@ import { FeaturesDiagonal } from "../components/FeaturesDiagonal";
 import "../styles/Theme.css";
 import "../styles/Diagonal.css";
 import { Brands } from "../components/Brands";
+import Testimonials from "../components/Testimonials";
+import Footer from "../components/Footer";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -20,4 +22,6 @@ import { Brands } from "../components/Brands";
   <FeaturesDiagonal client:load />
   <Pricing client:load />
   <Brands client:load />
+  <Testimonials client:load />
+  <Footer client:load />
 </Layout>

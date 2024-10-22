@@ -22,7 +22,7 @@ export const Features1 = () => {
                     <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
                         <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
                             <span className="block-subtitle">Embrace Innovation</span>
-                            <h2 className="mt-6 mb-8 text-4xl lg:text-5xl block-big-title">
+                            <h2 className="mt-6 capitalize mb-8 text-4xl lg:text-5xl block-big-title">
                                 Unlike any tool you used before
                             </h2>
                             <p className="mb-10 text-secondaryText leading-loose">

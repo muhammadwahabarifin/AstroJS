@@ -34,7 +34,7 @@ export default function Pricing() {
                         <div className='max-w-2xl mx-auto text-center mb-16'>
                             <span className='block-subtitle'>Find Your Perfect Fit</span>
                             <h2 className='mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-primaryText'>
-                                Choose your best plan
+                                Choose Your Best Plan
                             </h2>
                             <p className='mb-6 text-secondaryText'>
                                 Select the plan that suits your needs and benefit from our
