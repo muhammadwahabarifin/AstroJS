@@ -7,11 +7,13 @@ import { Features2 } from "../components/Features2";
 import Pricing from "../components/Pricing";
 import { FeaturesDiagonal } from "../components/FeaturesDiagonal";
 
-import "../styles/Theme.css";
-import "../styles/Diagonal.css";
 import { Brands } from "../components/Brands";
 import Testimonials from "../components/Testimonials";
 import Footer from "../components/Footer";
+import Blog from "../components/Blog";
+import FAQ from "../components/Faq";
+import "../styles/Theme.css";
+import "../styles/Diagonal.css";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -23,5 +25,7 @@ import Footer from "../components/Footer";
   <Pricing client:load />
   <Brands client:load />
   <Testimonials client:load />
+  <Blog client:load />
+  <FAQ client:load />
   <Footer client:load />
 </Layout>
