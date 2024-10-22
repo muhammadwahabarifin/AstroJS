@@ -4,10 +4,12 @@ import { Navbar } from "../components/Navbar";
 import { Hero } from "../components/Hero";
 import { Features1 } from "../components/Features1";
 import { Features2 } from "../components/Features2";
+import Pricing from "../components/Pricing";
+import { FeaturesDiagonal } from "../components/FeaturesDiagonal";
 
 import "../styles/Theme.css";
 import "../styles/Diagonal.css";
-import { FeaturesDiagonal } from "../components/FeaturesDiagonal";
+import { Brands } from "../components/Brands";
 ---
 
 <Layout title="Welcome to Astro.">
@@ -16,4 +18,6 @@ import { FeaturesDiagonal } from "../components/FeaturesDiagonal";
   <Features1 client:load />
   <Features2 client:load />
   <FeaturesDiagonal client:load />
+  <Pricing client:load />
+  <Brands client:load />
 </Layout>
